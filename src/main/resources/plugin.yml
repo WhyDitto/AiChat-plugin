@@ -1,0 +1,10 @@
+name: AIChat
+version: '${project.version}'
+main: ditto.aichat.Main
+api-version: 1.19
+authors: [ WhyDitto ]
+description: Make an AI Chat
+commands:
+  talk:
+    usage: /<command>
+    description: Talk with ai
