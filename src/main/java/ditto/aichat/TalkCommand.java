@@ -24,7 +24,7 @@ public class TalkCommand implements CommandExecutor, Listener {
     public TalkCommand(Main main) {
         this.main = main;
     }
-    private OpenAiService service = new OpenAiService("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", 0);
+    private OpenAiService service = new OpenAiService("TOKEN", 0);
     private HashMap<UUID, StringBuilder> conversations = new HashMap<>();
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
